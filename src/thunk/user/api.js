@@ -1,5 +1,5 @@
 import axios from 'axios';
-const apiBaseUrl = "https://quickchat-be.herokuapp.com:4000/api"
+const apiBaseUrl = "https://quickchat-be.herokuapp.com/api"
 
 const getUsersApi = (payload) => {
   const { id } = payload
