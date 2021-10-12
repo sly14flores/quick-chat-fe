@@ -11,7 +11,7 @@ import { io } from "socket.io-client"
 
 function App() {
 
-  const socket = io.connect("https://quickchat-socket.herokuapp.com");  
+  const socket = io("https://quickchat-socket.herokuapp.com");  
 
   return (
     <Router>
